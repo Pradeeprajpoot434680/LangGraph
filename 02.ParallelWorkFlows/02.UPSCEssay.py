@@ -24,7 +24,7 @@ h_model = ChatHuggingFace(llm=llm)
 # Use gemini-2.5-flash instead of the retired 1.5 version
 g_model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash", 
-    google_api_key="AIzaSyDp7Op3hfgHIKxfxmWzrB4Js70mTsBl77k"
+    google_api_key=""
 )
 
 
